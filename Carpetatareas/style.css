@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-block: 100%;
+    
+  }
+
+  #app {
+    max-width: 400px;
+    margin: 50px auto;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  li.completed {
+    background-color: #d4edda; 
+  }
+  
+  button {
+    margin-left: 50px;
+  }
+  
